@@ -1,0 +1,29 @@
+{
+	"name": "Water Intake Calculator",
+	"short_name": "Water Intake",
+	"description": "Calculate your personalized daily water intake based on weight, activity level, and climate.",
+	"start_url": "/",
+	"display": "standalone",
+	"orientation": "any",
+	"theme_color": "#1976D2",
+	"background_color": "#F8FAFE",
+	"lang": "en-US",
+	"categories": ["health", "fitness", "utilities"],
+	"icons": [
+		{
+			"src": "/apple-touch-icon.png",
+			"sizes": "180x180",
+			"type": "image/png"
+		},
+		{
+			"src": "/icon-192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/icon-512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}

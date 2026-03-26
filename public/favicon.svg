@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .bg { fill: #0D1117; }
+      .drop { fill: #64B5F6; }
+      @media (prefers-color-scheme: light) {
+        .bg { fill: #F8FAFE; }
+        .drop { fill: #1976D2; }
+      }
+    </style>
+  </defs>
+  <rect class="bg" width="32" height="32" rx="6"/>
+  <path class="drop" d="M16 5c-.5.7-7 9.5-7 14a7 7 0 0 0 14 0c0-4.5-6.5-13.3-7-14z"/>
+  <ellipse cx="13.5" cy="18" rx="2" ry="3" fill="white" opacity="0.25" transform="rotate(-15 13.5 18)"/>
+</svg>

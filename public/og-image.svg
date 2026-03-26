@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#1565C0"/>
+
+  <!-- Subtle wave pattern at the bottom -->
+  <path d="M0 480 Q150 440 300 470 T600 460 T900 470 T1200 450 L1200 630 L0 630 Z" fill="#1256A3" opacity="0.5"/>
+  <path d="M0 510 Q200 470 400 500 T800 490 T1200 480 L1200 630 L0 630 Z" fill="#0D47A1" opacity="0.4"/>
+
+  <!-- Water drop icon -->
+  <g transform="translate(600, 200)">
+    <path d="M0 -80 C-8 -60 -50 10 -50 45 C-50 75 -28 100 0 100 C28 100 50 75 50 45 C50 10 8 -60 0 -80 Z"
+          fill="white" opacity="0.9"/>
+    <ellipse cx="-12" cy="30" rx="10" ry="16" fill="white" opacity="0.3" transform="rotate(-15, -12, 30)"/>
+  </g>
+
+  <!-- Title text -->
+  <text x="600" y="370" text-anchor="middle"
+        font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+        font-size="52" font-weight="700" fill="white" letter-spacing="-0.5">
+    Water Intake Calculator
+  </text>
+
+  <!-- Subtitle text -->
+  <text x="600" y="420" text-anchor="middle"
+        font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+        font-size="26" font-weight="400" fill="white" opacity="0.85">
+    Science-backed daily hydration
+  </text>
+
+  <!-- Domain -->
+  <text x="600" y="580" text-anchor="middle"
+        font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+        font-size="20" font-weight="500" fill="white" opacity="0.6">
+    waterintake.com
+  </text>
+</svg>
