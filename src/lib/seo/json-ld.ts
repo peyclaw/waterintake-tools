@@ -5,7 +5,7 @@ export function getWebAppJsonLd() {
 		name: "Water Intake Calculator",
 		description:
 			"Calculate your personalized daily water intake based on weight, activity level, and climate.",
-		url: "https://waterintake.com/",
+		url: "https://waterintake.tools/",
 		applicationCategory: "HealthApplication",
 		operatingSystem: "Any",
 		offers: {

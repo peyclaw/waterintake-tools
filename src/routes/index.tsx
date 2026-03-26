@@ -80,7 +80,7 @@ export const Route = createFileRoute("/")({
 		links: [
 			{
 				rel: "canonical",
-				href: "https://waterintake.com/",
+				href: "https://waterintake.tools/",
 			},
 		],
 		scripts: [

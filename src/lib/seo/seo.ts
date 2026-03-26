@@ -1,4 +1,4 @@
-const SITE_URL = "https://waterintake.com";
+const SITE_URL = "https://waterintake.tools";
 const SITE_NAME = "Water Intake Calculator";
 
 interface SeoOptions {
@@ -47,6 +47,7 @@ export function seo(options: SeoOptions): Array<Record<string, string>> {
 			property: "og:image:height",
 			content: String(ogImageDimensions.height),
 		},
+		{ property: "og:image:type", content: "image/png" },
 		{ property: "og:image:alt", content: ogImageAlt },
 		{ property: "og:locale", content: ogLocale },
 		{ property: "og:site_name", content: SITE_NAME },
